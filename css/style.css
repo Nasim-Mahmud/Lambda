@@ -245,6 +245,11 @@ a, a:hover{
 	background: rgba(0,0,0,0.8);
 	padding: 48px 0px;
 	text-align: center;
+	transition: 0.7s;
+}
+.ingre .ingre-details:hover, .ingre .ingre-details:focus{
+	background: #000;
+	transform: scale(1.03);
 }
 .ingre .ingre-details h2{
 	margin: 0px;
@@ -282,6 +287,10 @@ a, a:hover{
 .ingre .ingre-details .ingre-pic ul li img {
 	padding: 0px 15px;
 	height: 100px;
+	transition: 0.7s;
+}
+.ingre .ingre-details .ingre-pic ul li img:hover, .ingre .ingre-details .ingre-pic ul li img:focus{
+	transform: scale(1.1);
 }
 /*ingredients section ends*/
 
@@ -356,28 +365,28 @@ a, a:hover{
 	margin: 0px;
 }
 .menu .food .sub-menu ul li .meal05 {
-    font-family: 'Yeseva One', cursive;
-    color: #cc9900;
-    padding: 0px 95px 0px 0px;
-    margin: 0px;
+	font-family: 'Yeseva One', cursive;
+	color: #cc9900;
+	padding: 0px 95px 0px 0px;
+	margin: 0px;
 }
 .menu .food .sub-menu ul li .meal06 {
-    font-family: 'Yeseva One', cursive;
-    color: #cc9900;
-    padding: 0px 40px 0px 0px;
-    margin: 0px;
+	font-family: 'Yeseva One', cursive;
+	color: #cc9900;
+	padding: 0px 40px 0px 0px;
+	margin: 0px;
 }
 .menu .food .sub-menu ul li .meal07 {
-    font-family: 'Yeseva One', cursive;
-    color: #cc9900;
-    padding: 15px 75px 0px 0px;
-    margin: 0px;
+	font-family: 'Yeseva One', cursive;
+	color: #cc9900;
+	padding: 15px 75px 0px 0px;
+	margin: 0px;
 }
 .menu .food .sub-menu ul li .meal08 {
-    font-family: 'Yeseva One', cursive;
-    color: #cc9900;
-    padding: 0px 120px 0px 0px;
-    margin: 0px;
+	font-family: 'Yeseva One', cursive;
+	color: #cc9900;
+	padding: 0px 120px 0px 0px;
+	margin: 0px;
 }
 .menu .food .sub-menu ul li .dollar{
 	font-family: 'Yeseva One', cursive;
@@ -459,8 +468,8 @@ a, a:hover{
 	position: relative;
 	left: 22%;
 	color: #fff;
-    font-size: 14px;
-    font-weight: 300;
+	font-size: 14px;
+	font-weight: 300;
 }
 /*menu section ends*/
 /*review section starts*/
@@ -471,40 +480,49 @@ a, a:hover{
 	background-size: contain;
 }
 .review .review-sec {
-    color: #fff;
-    background: rgba(0,0,0,0.8);
-    padding: 100px 0px;
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	padding: 100px 0px;
+	transition: 0.7s;
+}
+.review .review-sec:hover, .review .review-sec:focus{
+	background: #000;
+	transform: scale(1.03);
 }
 .review .review-sec h2 {
-    margin: 0px;
-    font-size: 35px;
-    font-weight: 400;
-    font-family: 'Yeseva One', cursive;
-    line-height: 45px;
-    color: #fff;
-    position: relative;
-    top: -30px;
+	margin: 0px;
+	font-size: 35px;
+	font-weight: 400;
+	font-family: 'Yeseva One', cursive;
+	line-height: 45px;
+	color: #fff;
+	position: relative;
+	top: -30px;
 }
 .review .review-sec .img-sec {
-    padding: 5px 0px 15px 0px;
-    position: relative;
-    top: -12px;
+	padding: 5px 0px 15px 0px;
+	position: relative;
+	top: -12px;
 }
 .review .review-sec p {
-    font-family: 'Gentium Book Basic', serif;
-    margin: 0px;
-    padding-bottom: 20px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    color: #dde0df;
-    letter-spacing: 1px;
+	font-family: 'Gentium Book Basic', serif;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 28px;
+	color: #dde0df;
+	letter-spacing: 1px;
+}
+.review .review-sec p .company {
+	position: relative;
+	top: 35px;
 }
 .review .review-sec p .comm {
-    position: relative;
-    top: -12px;
-    left: -13px;
-    height: 19px;
+	position: relative;
+	top: -12px;
+	left: -13px;
+	height: 19px;
 }
 /*review section ends*/
 
@@ -518,16 +536,25 @@ a, a:hover{
 
 }
 .reserve .pic ul{
- margin: 0px;
+	margin: 0px;
 }
 .reserve .pic ul li{
 	display: inline-block;
 	list-style: none;
 }
 .reserve .pic ul li .first {
-    padding: 0px 20px 0px 0px;
+	padding: 0px 20px 0px 0px;
+	transition: 0.7s;
 }
-
+.reserve .pic ul li .first:hover, .reserve .pic ul li .first:focus{
+	transform: scale(1.1);
+}
+.reserve .pic ul li .second{
+	transition: 0.7s;
+}
+.reserve .pic ul li .second:hover, .reserve .pic ul li .second:focus{
+	transform: scale(1.1);
+}
 .reserve .reserve-sec{
 
 } 
@@ -552,58 +579,58 @@ a, a:hover{
 	color: #4c4c4c;
 }
 .reserve .form-sec {
-    position: relative;
-    left: 18px;
+	position: relative;
+	left: 18px;
 }
 .reserve .form-sec .form-row{
 
 }
 .reserve .form-sec .form-row .col-md-6 {
-    margin: 0px !important;
-    padding: 10px 30px 10px 0px;
+	margin: 0px !important;
+	padding: 10px 30px 10px 0px;
 }
 .reserve .form-sec .form-row label {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 26px;
-    text-transform: initial;
-    color: #c9a131;
-    margin: 0px;
-    padding: 2px 0px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	text-transform: initial;
+	color: #c9a131;
+	margin: 0px;
+	padding: 2px 0px;
 }
 .reserve .form-sec .form-row .form-control {
-    border-radius: 0px;
-    font-size: 16px;
-    color: #7c7c7c;
-    font-style: italic;
-    padding: 0px 8px 4px;
+	border-radius: 0px;
+	font-size: 16px;
+	color: #7c7c7c;
+	font-style: italic;
+	padding: 0px 8px 4px;
 }
 .reserve .form-sec .form-row .form-control:hover{
 	border: 1px solid #c9a131;
 }
 .reserve .form-sec .form-row .custom-select{
 	border-radius: 0px;
-    font-size: 16px;
-    color: #7c7c7c;
-    font-style: italic;
-    padding: 0px 8px 4px;
-    transition: 0.7s;
+	font-size: 16px;
+	color: #7c7c7c;
+	font-style: italic;
+	padding: 0px 8px 4px;
+	transition: 0.7s;
 }
 .reserve .form-sec .form-row .custom-select:hover{
 	border: 1px solid #c9a131;
 }
 .reserve .form-sec .button {
-    text-align: center;
-    padding: 20px 20px 0px 0px;
+	text-align: center;
+	padding: 20px 20px 0px 0px;
 }
 .reserve .form-sec .button .btn-primary {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 3px 30px;
-    border-radius: 0px;
-    background: #c9a131;
-    border: 1px solid #c9a131;
-    transition: 0.7s;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 3px 30px;
+	border-radius: 0px;
+	background: #c9a131;
+	border: 1px solid #c9a131;
+	transition: 0.7s;
 }
 .reserve .form-sec .button .btn-primary:hover, .reserve .form-sec .button .btn-primary:focus{
 	background: transparent;
@@ -623,81 +650,91 @@ a, a:hover{
 	color: #fff;
 }
 .foot .one h5 {
-    margin: 0px;
-    font-size: 18px;
-    font-weight: 300;
-    font-family: 'Yeseva One', cursive;
-    padding: 0px 0px 5px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Yeseva One', cursive;
+	padding: 0px 0px 5px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 .foot .two h5 {
-    margin: 0px;
-    font-size: 18px;
-    font-weight: 300;
-    font-family: 'Yeseva One', cursive;
-    padding: 0px 0px 5px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Yeseva One', cursive;
+	padding: 0px 0px 5px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 .foot .three h5 {
-    margin: 0px;
-    font-size: 18px;
-    font-weight: 300;
-    font-family: 'Yeseva One', cursive;
-    padding: 0px 0px 5px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Yeseva One', cursive;
+	padding: 0px 0px 5px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 .foot .one p {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px 0px 0px;
-    margin: 0px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 0px 0px;
+	margin: 0px;
 }
 .foot .two p{
 	font-size: 14px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px 0px 0px;
-    margin: 0px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 0px 0px;
+	margin: 0px;
 }
 .foot .three p{
 	font-size: 14px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px 0px 0px;
-    margin: 0px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 0px 0px;
+	margin: 0px;
 }
 .foot .img-sec{
 
 }
 .foot .img-sec img {
-    height: 16px;
+	height: 16px;
 }
 .foot .two ul{
 
 }
 .foot .two ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 0px 5px;
-    position: relative;
-    top: 50px;
+	display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+	position: relative;
+	top: 50px;
+}
+.foot .two ul li .fa{
+	color: #fff;
+	transition: 0.7s;
+}
+.foot .two ul li .fa:hover, .foot .three ul li .fa:focus{
+	color: #c9a131;
 }
 .foot .three ul{
 
 }
 .foot .three ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 0px 5px;
-    position: relative;
-    top: 50px;
+	display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+	position: relative;
+	top: 50px;
 }
 .foot .three ul li .fa{
-
+	color: #fff;
+	transition: 0.7s;
 }
-
+.foot .three ul li .fa:hover, .foot .three ul li .fa:focus{
+	color: #c9a131;
+}
 /*footer section ends*/

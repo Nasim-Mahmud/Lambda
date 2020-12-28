@@ -1,0 +1,289 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	/*font-family: 'Poppins', sans-serif;*/
+	font-size: 14px;
+	line-height: 24px;
+
+	/*font-family: 'Gentium Book Basic', serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Yeseva One', cursive;*/
+}
+
+h1, h2, h3, h4, h5, h6{
+	/*font-family: 'Poppins', sans-serif;*/
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section starts*/
+.head{
+	width: 100%;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;	
+	overflow-x: hidden;
+}
+.head .bg-light{
+	background:transparent !important;
+}
+.head .title{
+	width: 100%;
+	text-align: center;
+	padding: 90px 0px;
+
+}
+.head .navbar-light .navbar-brand {
+
+}
+.head .navbar-light .navbar-brand img {
+	margin: 0px;
+	padding: 0px 130px;
+	height: 80px;
+}
+.head .navbar-light .navbar-nav .active>.nav-link {
+	padding-left: 130px;
+}
+.head .navbar-light .navbar-nav {
+	position: relative;
+	margin: 0px !important;
+	/*top: -10px;*/
+}
+.head .navbar-light .navbar-nav .nav-link {
+	padding: 0px 0px 0px 35px;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Gentium Book Basic', serif;
+	color: #fff;
+	transition: 0.7s;
+	letter-spacing: 1px;
+}
+.head .navbar-light .navbar-nav .nav-link:hover, .head .navbar-light .navbar-nav .nav-link:focus{
+
+}
+.head .navbar-light .navbar-nav .nav-link .r {
+	padding-right: 15px;
+}
+.head .navbar-light .navbar-nav .nav-item .fa {
+	padding: 0px 15px 0px 0px;
+	transition: 0.7s;
+	color: #dab33e;
+	
+}
+.head .navbar-light .navbar-nav .nav-item .fa:hover, .head .navbar-light .navbar-nav .nav-item .fa:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.head .navbar-collapse ul{
+	list-style: none; 
+	display: table;
+	width: 600px;
+	text-align: center;
+}
+
+.head .navbar-collapse ul li{
+	display: table-cell; 
+	position: relative; 
+	/*padding: 15px 0;*/
+}
+.head .navbar-collapse ul li a{
+	/*color: #fff;*/
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 40px;
+	position: relative;
+
+}
+
+.head .navbar-collapse ul li a:after {    
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: relative;
+	background: #fff;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+
+}
+.head .navbar-collapse ul li a:hover:after { 
+	width: 100%; 
+	left: 0; 
+
+}
+.head .title{
+
+}
+.head .title h1 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 80px;
+	color: #fff;
+	padding-bottom: 45px;
+}
+.head .title .img-sec{
+	padding-bottom: 20px;
+}
+.head .title .img-sec img{
+	height: 35px;
+}
+.head .title ul {
+	margin: 0px !important;
+}
+.head .title ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px;
+	padding: 20px 15px;
+}
+.head .title ul li a{
+
+}
+
+.head .title ul li .btn-primary {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	/*background: #000;*/
+	border: 1px solid #000;
+	border-color: rgba(0,0,0,0.5);
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px 30px;
+	transition: 0.7s;
+}
+.head .title ul li .btn-primary:hover, .head .title ul li .btn-primary:focus{
+	background: #000;
+}
+.head .title ul li .btn-info{
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	/*background: #fff;*/
+	border: 1px solid #fff;
+	/*border-color: rgba(0,0,0,0.5);*/
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 0.20);
+	padding: 10px 30px;
+	transition: 0.7s;
+}
+.head .title ul li .btn-info:hover, .head .title ul li .btn-info:focus{
+	background: #fff;
+	color: #000;
+}
+/*header section ends*/
+/*body starts*/
+/*about section start*/
+.about-sec{
+	width: 100%;
+	padding: 80px 0px 30px;
+	text-align: center;
+	background: url("../images/bg2.png") center top no-repeat;
+	background-size: cover;
+}
+.about-sec .about{
+
+}
+.about-sec .about h2 {
+	margin: 0px;
+	font-size: 35px;
+	font-weight: 400;
+	font-family: 'Yeseva One', cursive;
+	line-height: 45px;
+	color: #cc9900;
+}
+.about-sec .about .img-sec{
+	padding: 10px 0px 20px;
+}
+.about-sec .about .cook{
+
+}
+.about-sec .about .cook img {
+	height: 180px;
+	width: 180px;/
+	position: relative;
+	left: 25px;
+	/*top: 25px;*/
+}
+.about-sec .about p {
+	margin: 0px;
+	padding-bottom: 45px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: 'Lato', sans-serif; 
+}
+
+.about-sec .dish{
+	text-align: center;
+}
+.about-sec .dish img {
+	height: 520px;
+	position: relative;
+	top: -25px;
+	left: -30px;
+}
+/*about section ends*/
+
+/*ingredients section starts*/
+.ingre{
+	width: 100%;
+	padding: 80px 0px 80px;
+	background: url("../images/bg3.png") center top no-repeat;
+	background-size: cover;
+}
+.ingre .col-md-6 {
+    padding: 0px 35px;
+    max-width: 48%;
+}
+.ingre .ingre-details {
+    background: rgba(0,0,0,0.5);
+    padding: 48px 0px;
+    text-align: center;
+}
+.ingre .ingre-details h2{
+	margin: 0px;
+	font-size: 35px;
+	font-weight: 400;
+	font-family: 'Yeseva One', cursive;
+	line-height: 45px;
+	color: #fff;
+}
+.ingre .ingre-details .img-sec{	
+	padding: 10px 0px 20px;
+}
+.ingre .ingre-details .img-sec img{
+
+}
+.ingre .ingre-details p{
+	margin: 0px;
+	padding-bottom: 45px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: 'Lato', sans-serif;
+	color: #fff
+}
+.ingre .ingre-details .ingre-pic{
+
+}
+.ingre .ingre-details .ingre-pic ul{
+
+}
+.ingre .ingre-details .ingre-pic ul li{
+	display: inline-block;
+	list-style: none;
+}
+.ingre .ingre-details .ingre-pic ul li img {
+    padding: 0px 15px;
+    height: 100px;
+}
+/*ingredients section ends*/
+/*body ends*/

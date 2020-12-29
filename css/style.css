@@ -31,8 +31,18 @@ a, a:hover{
 	background-size: cover;	
 	overflow-x: hidden;
 }
+.head .navbar-wrapper {
+	margin-top:0px;
+	position: relative;
+	z-index: 15;
+}
+.head .isStuck{
+	left:0px;
+	width:100%;
+	background: rgba(0,0,0,0.5) !important;
+}
 .head .bg-light{
-	background:transparent !important;
+	/*background:transparent !important;*/
 }
 .head .title{
 	width: 100%;

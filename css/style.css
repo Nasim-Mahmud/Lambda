@@ -39,7 +39,8 @@ a, a:hover{
 .head .isStuck{
 	left:0px;
 	width:100%;
-	background: rgba(0,0,0,0.5) !important;
+	background: rgb(0,0,9);
+background: linear-gradient(180deg, rgba(0,0,9,1) 6%, rgba(6,6,6,0.07886904761904767) 100%, rgba(0,212,255,1) 100%);
 }
 .head .bg-light{
 	/*background:transparent !important;*/
